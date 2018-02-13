@@ -2,7 +2,7 @@ var express =require('express');
 var morgan=require('morgan');
 var exphbs = require('express-handlebars');
 var path = require('path');
-
+var port = process.env.PORT || 3000;
 var app = express();
 
 //Middlwares
