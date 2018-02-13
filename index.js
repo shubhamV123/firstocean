@@ -15,6 +15,6 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
-app.listen('3000',() => {
+app.listen(port,() => {
     console.log('Port running on 3000')
 })
